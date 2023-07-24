@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+header {
+    height: 121px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo {
+    width: 150px;
+    height: 121px;
+    position: relative;
+    right: 271px;
+}
+nav {
+    position: relative;
+    left: 350px;
+}
+li {
+    background-color: black;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+
+li:hover {
+    color: red;
+}
+.space-image {
+   
+}
+.page-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 100%;
+    height: 2000px;
+    
+}
+
+.img1 {
+    background-image: url("https://img.elo7.com.br/product/original/3FBBEDD/big-poster-filme-batman-2022-90x60-cm-lo006-poster.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.img2 {
+    background-image: url("https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.img3 {
+    background-image: url("https://img.elo7.com.br/product/original/3FBBED5/big-poster-filme-batman-2022-90x60-cm-lo004-presente-geek.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.img4 {
+    background-image: url("https://pbs.twimg.com/media/FKhgVFkUUAo1y7w?format=jpg&name=4096x4096");
+    background-size: cover;
+    border-radius: 5px;
+}
+.img5 {
+    background-image: url("https://static.posters.cz/image/1300/art-photo/the-batman-2022-i122573.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.img6 {
+    background-image: url("https://wallpapercave.com/wp/wp10901748.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pct1 {
+    background-image: url("https://i.ibb.co/frKT3mm/Eavw-Gnd-Wo-AIJ8-Em.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pct2 {
+    background-image: url("https://poltronanerd.com.br/wp-content/uploads/2022/02/20.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pct3 {
+    background-image: url("https://i.ebayimg.com/images/g/BgUAAOSwAK9h3~4T/s-l1600.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pct4 {
+    background-image: url("https://pbs.twimg.com/media/Ejo7mnrWkAAF5IA.jpg:large");
+    background-size: cover;
+    border-radius: 5px;
+}
+.pct5 {
+    background-image: url("https://deadline-magazin.de/wp-content/uploads/2022/03/The-Batman-Kino-Poster.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}  
+.pct6 {
+    background-image: url("https://pbs.twimg.com/media/Ef4Do0cWkAEyy1i?format=jpg");
+    background-size: cover;
+    border-radius: 5px;
+}        
+footer {
+    height: 300px;
+    background-color: black;
+    margin-top: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+#logo2 {
+    width: 150px;
+    height: 121px;
+    background-color: black
+}
+span {
+    background-color: black;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    color: aliceblue;
+}  
+            

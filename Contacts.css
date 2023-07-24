@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color:red;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 121px;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo {
+    width: 150px;
+    height: 121px;
+    position: relative;
+    right: 271px;
+}
+nav {
+    position: relative;
+    left: 350px;
+}
+li {
+    background-color: black;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+
+li:hover {
+    color: red;
+}
+
+.contacts-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 300px;
+
+}
+
+.contact {
+    width: 40%;
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+   
+}
+
+
+.image-1 {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/6244/6244710.png');
+    background-color: white;
+   
+}
+.image-2 {
+    background-image: url('https://www.freepnglogos.com/uploads/logo-telefone-png/icone-telefone-png-download-3.png');
+    background-color: white;
+
+}
+.image-3 {
+    background-image: url('http://cdn.onlinewebfonts.com/svg/img_258694.png');
+    background-color: white;
+
+} 
+.description-content {
+    margin-top: 20px;
+}
+.description {
+    width: 90%;
+    height: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    color: aliceblue;
+}
+.name1 {
+    margin-left: 320px;
+}
+.name2 {
+    margin-left: 270px;
+}
+.name3 {
+    margin-left: 250px;
+}
+.contacts {
+    width: 90%;
+    margin-top: 10px;
+}
+
+b {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    color: black  
+}
+.email {
+    margin-left: 320px;
+    cursor: pointer;
+}
+.fone {
+    margin-left: 270px;
+    cursor: pointer;
+}
+.chat {
+    margin-left: 250px;
+    cursor: pointer;
+}
+footer {
+    height: 300px;
+    background-color: black;
+    margin-top: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo2 {
+    width: 150px;
+    height: 121px;
+    background-color: black
+}
+span {
+    background-color: black;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    color: aliceblue;
+}
+    
